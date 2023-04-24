@@ -9,9 +9,24 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
+        
+        {/* Navbar and Hero section */}
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+        </div>
+
+        {/* Other page sections */}
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+
+        {/* Contact and Starts display */}
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
